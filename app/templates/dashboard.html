@@ -1,0 +1,20 @@
+{% extends 'layout.html' %}
+{% block content %}
+  <div class="content-section">
+    <h2>Welcome, {{ current_user.username }}!</h2>
+    <h3>Your Expenses</h3>
+    <ul class="list-group">
+      {% for expense in expenses %}
+        <li class="list-group-item">
+          <span>{{ expense.date_posted.strftime('%Y-%m-%d') }}</span>
+          <span class="float-right">${{ expense.amount }}</span>
+          <br>
+          <strong>{{ expense.category }}</strong>
+          {% if expense.description %}
+            <p>{{ expense.description }}</p>
+          {% endif %}
+        </li>
+      {% endfor %}
+    </ul>
+  </div>
+{% endblock %}
