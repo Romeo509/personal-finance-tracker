@@ -12,23 +12,23 @@ A simple web application for tracking expenses built with Flask.
 - [Contributing](#contributing)
 - [License](#license)
 
-expense_tracker/
-|-- app/
-|   |-- __init__.py
-|   |-- forms.py
-|   |-- models.py
-|   |-- routes.py
-|   |-- static/
-|   |   |-- styles.css
-|   |-- templates/
-|       |-- dashboard.html
-|       |-- error.html
-|       |-- layout.html
-|       |-- login.html
-|       |-- register.html
-|-- venv/  (virtual environment)
-|-- run.py
-|-- config.py
+#expense_tracker/
+#|-- app/
+#|   |-- __init__.py
+#|   |-- forms.py
+#|   |-- models.py
+#|   |-- routes.py
+#|   |-- static/
+#|   |   |-- styles.css
+#|   |-- templates/
+#|       |-- dashboard.html
+#|       |-- error.html
+#|       |-- layout.html
+#|       |-- login.html
+#|       |-- register.html
+#|-- venv/  (virtual environment)
+#|-- run.py
+#|-- config.py
 
 
 ## Introduction
